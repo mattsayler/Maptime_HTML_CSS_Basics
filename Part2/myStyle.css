@@ -1,23 +1,43 @@
 body {
-    margin: 0; /* setting the margin & padding to 0 on the body can help promote more consistent rendering accross browsers */
+    /* Setting the margin & padding to 0 on the body can 
+    help promote more consistent rendering accross browsers */
+    margin: 0; 
     padding: 0;
-    background-color: RGB(150, 200, 150); /* colors can be specified in RGB, hex code, or in limited cases by name */
+    
+    /* colors can be specified in RGB, hex code, or in 
+    limited cases by name */
+    background-color: RGB(150, 200, 150);
 }
 
 #container {
-    width: 33%; /* dimensions can be in pixels, percentage or "em's" */
+    /* Dimensions can be in pixels, percentage or "em's" */
     height: 500px;
-    margin-left: auto;
+    
+    /* Specifying a width and setting left & right margins 
+    to "auto" is a common method for centering */
+    width: 33%;
+    margin-left: auto; 
     margin-right: auto;
+    
+    /* Note that the background color shows up as pink, not orange. 
+    Style settings will overwrite based on location. Since a 
+    background color for the container id is specified in the head,
+    the color specified in this file is overridden.
+    external file < head < in-line */
     background-color: orange;
 }
 
 div.content {
+    /* note that overall width consists of margin plus border plus 
+    padding plus specified "width" (or interpreted content width 
+    sometimes). This is referred to as the "Box Model" */
     margin: 5px;
     padding: 1em;
-    background-color: #6699FF;
-    text-align: center;
+
     border-width: 3px;
     border-style: dashed;
     border-color: red;
+    
+    text-align: center;
+    background-color: #6699FF;
 }
