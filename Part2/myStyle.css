@@ -1,7 +1,7 @@
 body {
     margin: 0; /* setting the margin & padding to 0 on the body can help promote more consistent rendering accross browsers */
     padding: 0;
-    background-color: RGB(200, 180, 200); /* colors can be specified in RGB, hex code, or in limited cases by name */
+    background-color: RGB(150, 200, 150); /* colors can be specified in RGB, hex code, or in limited cases by name */
 }
 
 #container {
