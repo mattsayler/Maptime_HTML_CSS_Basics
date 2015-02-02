@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #99FF99;
 }
 
 #container {
@@ -9,11 +10,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
-    background-color: #99FF99;
-    text-align: center;
 }
 
 div.content {
     padding: 1em;
     background-color: #6699FF;
+    text-align: center;
 }
