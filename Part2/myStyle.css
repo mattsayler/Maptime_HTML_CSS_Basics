@@ -1,11 +1,11 @@
 body {
-    margin: 0;
+    margin: 0; /* setting the margin & padding to 0 on the body can help promote more consistent rendering accross browsers */
     padding: 0;
-    background-color: #99FF99;
+    background-color: RGB(200, 180, 200); /* colors can be specified in RGB, hex code, or in limited cases by name */
 }
 
 #container {
-    width: 33%;
+    width: 33%; /* dimensions can be in pixels, percentage or "em's" */
     height: 500px;
     margin-left: auto;
     margin-right: auto;
