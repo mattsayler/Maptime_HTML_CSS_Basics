@@ -9,6 +9,7 @@ body {
     height: 500px;
     margin-left: auto;
     margin-right: auto;
+    background-color: orange;
 }
 
 div.content {
@@ -18,5 +19,5 @@ div.content {
     text-align: center;
     border-width: 1px;
     border-style: dashed;
-    boder-color: red;
+    border-color: red;
 }
