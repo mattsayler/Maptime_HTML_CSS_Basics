@@ -17,7 +17,7 @@ div.content {
     padding: 1em;
     background-color: #6699FF;
     text-align: center;
-    border-width: 1px;
+    border-width: 3px;
     border-style: dashed;
     border-color: red;
 }
