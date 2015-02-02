@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #99FF99;
+}
+
+div.content {
+    width: 700px;
+    height: 33%;
+    background-color: #6699FF;
+    text-align: center;
+}
