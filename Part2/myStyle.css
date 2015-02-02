@@ -5,15 +5,18 @@ body {
 }
 
 #container {
-    width: 700px;
-    height: 33%;
+    width: 33%;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1em;
 }
 
 div.content {
+    margin: 5px;
     padding: 1em;
     background-color: #6699FF;
     text-align: center;
+    border-width: 1px;
+    border-style: dashed;
+    boder-color: red;
 }
