@@ -4,7 +4,7 @@ Maptime is primarily about mapping, but before getting into things like webmappi
 
 ## What This __Is__
 
-__Some__ of the fundamentals to help introduce you to the syntaxes (syntacti?) of HTML & CSS. The goal is to just barely get your feet wet and, hopefully, get you hungry to do more.
+_Some_ of the fundamentals to help introduce you to the syntaxes (syntacti?) of HTML & CSS. The goal is to just barely get your feet wet and, hopefully, get you hungry to do more.
 
 ## What This __Is Not__
 
@@ -17,8 +17,8 @@ This is __not__ a comprehensive guide to all things HTML & CSS. You __will__ hav
 
 ## Links to example webpages
 
- - <a href="http://mattsayler.github.io/HTML_CSS_Basics/Part1/index.html" target="_blank">Part 1: HTML</a>
- - <a href="http://mattsayler.github.io/HTML_CSS_Basics/Part2/index.html" target="_blank">Part 2: HTML</a>
+ - <a href="http://mattsayler.github.io/HTML_CSS_Basics/Part1/index.html" target="_blank">Part 1</a>
+ - <a href="http://mattsayler.github.io/HTML_CSS_Basics/Part2/index.html" target="_blank">Part 2</a>
 
 ---
 
