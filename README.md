@@ -10,11 +10,15 @@ __Some__ of the fundamentals to help introduce you to the syntaxes (syntacti?) o
 
 This is __not__ a comprehensive guide to all things HTML & CSS. You __will__ have questions. That's ok. A big part of _all_ kinds of coding is taking what you know and building upon it. That often means research and collaborating with others. Thankfully there are a __plethora__ of resources on the internet and here in Portland.
 
-## Links to the Output Webpages
+## Links to presentations
 
-[Part 1: HTML](http://mattsayler.github.io/HTML_CSS_Basics/Part1/index.html)
+ - <a href="http://mattsayler.github.io/HTML_CSS_Basics/Part1/presentation.html" target="_blank">Part 1: HTML</a>
+ - <a href="http://mattsayler.github.io/HTML_CSS_Basics/Part2/presentation.html" target="_blank">Part 2: More HTML & CSS</a>
 
-[Part 2: CSS & More HTML](http://mattsayler.github.io/HTML_CSS_Basics/Part2/index.html)
+## Links to example webpages
+
+ - <a href="http://mattsayler.github.io/HTML_CSS_Basics/Part1/index.html" target="_blank">Part 1: HTML</a>
+ - <a href="http://mattsayler.github.io/HTML_CSS_Basics/Part2/index.html" target="_blank">Part 2: HTML</a>
 
 ---
 
