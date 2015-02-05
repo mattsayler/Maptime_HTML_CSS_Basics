@@ -24,17 +24,17 @@ There are many many resources out there. These are just a few. Be sure to search
 
 #### Web-Based Resources
 
-[Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/)
-[w3schools](http://www.w3schools.com/)
-[CSS-Tricks](http://css-tricks.com/)
-[HTML5 Rocks](http://www.html5rocks.com/en/)
+ - [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/)
+ - [w3schools](http://www.w3schools.com/)
+ - [CSS-Tricks](http://css-tricks.com/)
+ - [HTML5 Rocks](http://www.html5rocks.com/en/)
 
 #### Web-Base Programs
-[Tree House](http://teamtreehouse.com/)
-[Code School](https://www.codeschool.com)
-[codecademy](www.codecademy.com)
+ - [Tree House](http://teamtreehouse.com/)
+ - [Code School](https://www.codeschool.com)
+ - [codecademy](www.codecademy.com)
 
 #### Portland-Based Organisations with Programs
 
-[Epicodus](https://www.epicodus.com/)
-[Portland Code School](http://www.portlandcodeschool.com/)
+ - [Epicodus](https://www.epicodus.com/)
+ - [Portland Code School](http://www.portlandcodeschool.com/)
