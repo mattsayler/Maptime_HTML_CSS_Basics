@@ -2,13 +2,13 @@
 
 Maptime is primarily about mapping, but before getting into things like webmapping APIs, I think it's beneficial to have at least a cursory foundation in web programming.
 
-## What This __Is__
+## What These Tutorials __Are__
 
-_Some_ of the fundamentals to help introduce you to the syntaxes (syntacti?) of HTML & CSS. The goal is to just barely get your feet wet and, hopefully, get you hungry to do more.
+These are _some_ of the fundamentals to help introduce you to the syntaxes (syntacti?) of HTML & CSS. The goal is to just barely get your feet wet and, hopefully, get you hungry to do more!
 
-## What This __Is Not__
+## What These Tutorials __Are Not__
 
-This is __not__ a comprehensive guide to all things HTML & CSS. You __will__ have questions. That's ok. A big part of _all_ kinds of coding is taking what you know and building upon it. That often means research and collaborating with others. Thankfully there are a __plethora__ of resources on the internet and here in Portland.
+These are _not_ a comprehensive guide to all things HTML & CSS. You __will__ have questions. That's ok. A big part of _all_ kinds of coding is taking what you do know and building upon it. That often means research and collaborating with others. Thankfully, there are a __plethora__ of resources on the internet and here in Portland.
 
 ## Links to presentations
 
