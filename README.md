@@ -12,13 +12,13 @@ These are _not_ a comprehensive guide to all things HTML & CSS. You __will__ hav
 
 ## Links to presentations
 
- - <a href="http://mattsayler.github.io/HTML_CSS_Basics/Part1/presentation.html" target="_blank">Part 1: HTML</a>
- - <a href="http://mattsayler.github.io/HTML_CSS_Basics/Part2/presentation.html" target="_blank">Part 2: More HTML & CSS</a>
+ - <a href="http://mattsayler.github.io/Maptime_HTML_CSS_Basics/Part1/presentation.html" target="_blank">Part 1: HTML</a>
+ - <a href="http://mattsayler.github.io/Maptime_HTML_CSS_Basics/Part2/presentation.html" target="_blank">Part 2: More HTML & CSS</a>
 
 ## Links to example webpages
 
- - <a href="http://mattsayler.github.io/HTML_CSS_Basics/Part1/index.html" target="_blank">Part 1</a>
- - <a href="http://mattsayler.github.io/HTML_CSS_Basics/Part2/index.html" target="_blank">Part 2</a>
+ - <a href="http://mattsayler.github.io/Maptime_HTML_CSS_Basics/Part1/index.html" target="_blank">Part 1</a>
+ - <a href="http://mattsayler.github.io/Maptime_HTML_CSS_Basics/Part2/index.html" target="_blank">Part 2</a>
 
 ---
 
