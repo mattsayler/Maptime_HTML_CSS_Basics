@@ -38,7 +38,11 @@ There are many many resources out there. These are just a few. Be sure to search
  - [Code School](https://www.codeschool.com)
  - [codecademy](www.codecademy.com)
 
-#### Portland-Based Organisations with Programs
+#### Portland-Based Organizations with Programs
 
  - [Epicodus](https://www.epicodus.com/)
  - [Portland Code School](http://www.portlandcodeschool.com/)
+
+## Attribution
+
+Presentations were built using [weenote.js](https://github.com/jed/weenote) by Jed Schmidt.
