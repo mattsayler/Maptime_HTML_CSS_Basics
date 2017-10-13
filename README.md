@@ -12,13 +12,13 @@ These are _not_ a comprehensive guide to all things HTML & CSS. You __will__ hav
 
 ## Links to presentations
 
- - <a href="http://mattsayler.github.io/Maptime_HTML_CSS_Basics/Part1/presentation.html" target="_blank">Part 1: HTML</a>
- - <a href="http://mattsayler.github.io/Maptime_HTML_CSS_Basics/Part2/presentation.html" target="_blank">Part 2: More HTML & CSS</a>
+ - <a href="//mattsayler.github.io/Maptime_HTML_CSS_Basics/Part1/presentation.html" target="_blank">Part 1: HTML</a>
+ - <a href="//mattsayler.github.io/Maptime_HTML_CSS_Basics/Part2/presentation.html" target="_blank">Part 2: More HTML & CSS</a>
 
 ## Links to example webpages
 
- - <a href="http://mattsayler.github.io/Maptime_HTML_CSS_Basics/Part1/index.html" target="_blank">Part 1</a>
- - <a href="http://mattsayler.github.io/Maptime_HTML_CSS_Basics/Part2/index.html" target="_blank">Part 2</a>
+ - <a href="//mattsayler.github.io/Maptime_HTML_CSS_Basics/Part1/index.html" target="_blank">Part 1</a>
+ - <a href="//mattsayler.github.io/Maptime_HTML_CSS_Basics/Part2/index.html" target="_blank">Part 2</a>
 
 ---
 
@@ -28,21 +28,21 @@ There are many many resources out there. These are just a few. Be sure to search
 
 #### Web-Based Resources
 
- - [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/)
- - [w3schools](http://www.w3schools.com/)
- - [CSS-Tricks](http://css-tricks.com/)
- - [HTML5 Rocks](http://www.html5rocks.com/en/)
+ - [Mozilla Developer Network (MDN)](//developer.mozilla.org/en-US/)
+ - [w3schools](//www.w3schools.com/)
+ - [CSS-Tricks](//css-tricks.com/)
+ - [HTML5 Rocks](//www.html5rocks.com/en/)
 
 #### Web-Base Programs
- - [Tree House](http://teamtreehouse.com/)
- - [Code School](https://www.codeschool.com)
- - [codecademy](www.codecademy.com)
+ - [Tree House](//teamtreehouse.com/)
+ - [Code School](//www.codeschool.com)
+ - [codecademy](//www.codecademy.com)
 
 #### Portland-Based Organizations with Programs
 
- - [Epicodus](https://www.epicodus.com/)
- - [Portland Code School](http://www.portlandcodeschool.com/)
+ - [Epicodus](//www.epicodus.com/)
+ - [Portland Code School](//www.portlandcodeschool.com/)
 
 ## Attribution
 
-Presentations were built using [weenote.js](https://github.com/jed/weenote) by Jed Schmidt.
+Presentations were built using [weenote.js](//github.com/jed/weenote) by Jed Schmidt.
