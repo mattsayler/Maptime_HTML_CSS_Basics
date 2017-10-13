@@ -31,7 +31,6 @@ There are many many resources out there. These are just a few. Be sure to search
  - [Mozilla Developer Network (MDN)](//developer.mozilla.org/en-US/)
  - [w3schools](//www.w3schools.com/)
  - [CSS-Tricks](//css-tricks.com/)
- - [HTML5 Rocks](//www.html5rocks.com/en/)
 
 #### Web-Base Programs
  - [Tree House](//teamtreehouse.com/)
