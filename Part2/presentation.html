@@ -2,144 +2,144 @@
 
 <html>
 
-  <head>
-    <meta charset="UTF-8">
-    <title>More HTML &amp; CSS</title>
-    
-    <!-- Presentation using weenote by Jed Schmidt -->
-    <script type="text/javascript" src="//mattsayler.github.io/Maptime_HTML_CSS_Basics/weenote.js"></script>
-    
-    <style>
-      body {
-        font-family: "Helvetica", "sans-serif";
-        font-weight: bold;
-        background-color: #000;
-        text-align: center;
-        color: #FFF;
-        white-space: nowrap;
-      }
-      a, em {
-        color: #CC0;
-        font-style: normal;
-      }
-      a {
-        border-bottom: .1em dotted;
-        text-decoration: none;
-      }
-      span.green {
-        color: green;
-      }
-      span.blue {
-        color: lightblue;
-      }
-      span.orange {
-        color: orange;
-      }
-    </style>
+<head>
+  <meta charset="UTF-8">
+  <title>More HTML &amp; CSS</title>
+
+  <!-- Presentation using weenote by Jed Schmidt -->
+  <script type="text/javascript" src="//mattsayler.github.io/Maptime_HTML_CSS_Basics/weenote.js"></script>
+
+  <style>
+    body {
+      font-family: "Helvetica", "sans-serif";
+      font-weight: bold;
+      background-color: #000;
+      text-align: center;
+      color: #FFF;
+      white-space: nowrap;
+    }
+    a, em {
+      color: #CC0;
+      font-style: normal;
+    }
+    a {
+      border-bottom: .1em dotted;
+      text-decoration: none;
+    }
+    span.green {
+      color: green;
+    }
+    span.blue {
+      color: lightblue;
+    }
+    span.orange {
+      color: orange;
+    }
+  </style>
   
-  </head>
+</head>
   
-  <body>
+<body>
+  
+  <div>More HTML</div>
+  <div>(And soon CSS)</div>
+  <div>More tags</div>
+  <div>Sets of tags in a document <br/>
+    are referred to as <em>elements</em>
+  </div>
+  <div>Tags can have <em>attributes</em></div>
+  <div>Attributes provide some sort of <br/>
+    <em>info</em> about the tag's contents
+  </div>
+  <div>&lt;tagname <span class="green">attribute</span>=<span class="blue">"value"</span>&gt;&lt;&#47;tagname&gt;</div>
+  <div>Three commonly used <em>attributes</em> that <br/>
+    will come in handy <em>soon</em>
+  </div>
+  <div><em>id</em></div>
+  <div>id is a <em>user-defined indentifier</em> for a tag</div>
+  <div>&lt;tagname <span class="green">id</span>=<span class="blue">"myContent"</span>&gt;&lt;&#47;tagname&gt;</div>
+  <div>A given id should only be used <em>once</em> in a doc</div>
+  <div>Usually reserved for big important tags</div>
+  <div><em>class</em></div>
+  <div>class is similar to id</div>
+  <div>It's used to identify tags</div>
+  <div>But classes can be used multiple times</div>
+  <div>And tags can be given multiple classes</div>
+  <div>&lt;tagname <span class="green">class</span>=<span class="blue">"mainParagraph fancy"</span>&gt;&lt;&#47;tagname&gt;</div>
+  <div><em>Note:</em> id and class names can't start with a number</div>
+  <div><em>style</em></div>
+  <div>style tells the browser how to style a tag's contents</div>
+  <div>&lt;tagname <span class="green">style</span>=<span class="blue">"background-color:#448844;"</span>&gt;&lt;&#47;tagname&gt;</div>
+  <div>Styling something in this manner <br/>
+    is called <em>in-line</em> styling
+  </div>
+  <div>The syntax for the style <br/>
+    attribute's <em>value</em> <br/>
+    is similar to <em>CSS</em>, <br/>
+    so more on that later
+  </div>
+  <div>More tags</div>
+  <div>&lt;div&gt;&lt;&#47;div&gt;<br/>
+    Structural, think of as a <em>container</em>
+  </div>
+  <div>Versatile so you'll see them a lot</div>
+  <div>&lt;p&gt;&lt;&#47;p&gt;<br/>Paragraph</div>
+  <div>For blocks of text</div>
+  <div>&lt;br&#47;&gt;<br/>Line break</div>
+  <div>(Note it is one of the <em>exceptions</em> to <br/>
+    the "tags are paired" rule)</div>
+  <div>Let's take a look at <br/>
+    a more complex page <br/>
+    before we look at CSS
+  </div>
+  <div><a href="//github.com/mattsayler/Maptime_HTML_CSS_Basics/blob/gh-pages/Part2/index.html" target="_blank">Part 2 HTML Code</a></div>
+  <div><a href="//mattsayler.github.io/Maptime_HTML_CSS_Basics/Part2/index.html" target="_blank">Part 2 HTML Output</a></div>
+
+  <div>CSS</div>
+  <div>What is CSS?</div>
+  <div>Cascading Style Sheet</div>
+  <div>Describes how to <em>style</em> elements</div>
+  <div>Three ways to use</div>
+  <div>External <em>file</em></div>
+  <div>In the <em>head</em></div>
+  <div><em>In-line</em></div>
+  <div>Basic Syntax</div>
+  <div><span class="orange">selector</span> {<span class="green">property</span>:<span class="blue">value</span>;<span class="green">property</span>:<span class="blue">value</span>;}</div>
+  <div><em>Selector</em> identifies the tag <br/>
+    or tags to apply the style to
+  </div>
+  <div>It can reference the <em>tag</em>, <em>class/id</em>, or <em>both</em></div>
+  <div>(and a few other things)</div>
+  <div>i.e. <br/><span class="orange">p</span> {property:value;property:value;}</div>
+  <div>Selects <em>all</em> &lt;p&gt; elements <br/>
+    and applies the styling indicated <br/>
+    by the property-value pairs
+  </div>
+  <div>Properties</div>
+  <div>There are many many many <em>properties</em></div>
+  <div>We won't even <em>remotely</em> cover them all</div>
+  <div>But here's a <a href="//www.w3schools.com/cssref/default.asp" target="_blank">reference</a>.</div>
+  <div>Let's dive back in to the code</div>
+  <div><a href="//github.com/mattsayler/Maptime_HTML_CSS_Basics/blob/gh-pages/Part2/index.html" target="_blank">Part 2 HTML Code</a></div>
+  <div><a href="//mattsayler.github.io/Maptime_HTML_CSS_Basics/Part2/index.html" target="_blank">Part 2 HTML Output</a></div>
+
+  <div>So there you have it</div>
+  <div>We talked about how <em>HTML</em> </br>
+    uses <em>tags</em> to "mark-up" a document
+  </div>
+  <div>Browsers <em>interpret</em> that <br/>
+    mark-up to <em>render</em> a webpage
+  </div>
+  <div>CSS can be used to <em>style</em> an HTML document</div>
+  <div>CSS <em>selectors</em> find elements <br/>
+    and style them according to <br/>
+    <em>property-value</em> pairs
+  </div>
+  <div>And that's the top of the tip of the iceberg!</div>
+  <div>Go forth and <em>code</em>! <br/>
+    Explore! Play! Learn!
+  </div>
     
-    <div>More HTML</div>
-    <div>(And soon CSS)</div>
-    <div>More tags</div>
-    <div>Sets of tags in a document <br/>
-      are referred to as <em>elements</em>
-    </div>
-    <div>Tags can have <em>attributes</em></div>
-    <div>Attributes provide some sort of <br/>
-      <em>info</em> about the tag's contents
-    </div>
-    <div>&lt;tagname <span class="green">attribute</span>=<span class="blue">"value"</span>&gt;&lt;&#47;tagname&gt;</div>
-    <div>Three commonly used <em>attributes</em> that <br/>
-      will come in handy <em>soon</em>
-    </div>
-    <div><em>id</em></div>
-    <div>id is a <em>user-defined indentifier</em> for a tag</div>
-    <div>&lt;tagname <span class="green">id</span>=<span class="blue">"myContent"</span>&gt;&lt;&#47;tagname&gt;</div>
-    <div>A given id should only be used <em>once</em> in a doc</div>
-    <div>Usually reserved for big important tags</div>
-    <div><em>class</em></div>
-    <div>class is similar to id</div>
-    <div>It's used to identify tags</div>
-    <div>But classes can be used multiple times</div>
-    <div>And tags can be given multiple classes</div>
-    <div>&lt;tagname <span class="green">class</span>=<span class="blue">"mainParagraph fancy"</span>&gt;&lt;&#47;tagname&gt;</div>
-    <div><em>Note:</em> id and class names can't start with a number</div>
-    <div><em>style</em></div>
-    <div>style tells the browser how to style a tag's contents</div>
-    <div>&lt;tagname <span class="green">style</span>=<span class="blue">"background-color:#448844;"</span>&gt;&lt;&#47;tagname&gt;</div>
-    <div>Styling something in this manner <br/>
-      is called <em>in-line</em> styling
-    </div>
-    <div>The syntax for the style <br/>
-      attribute's <em>value</em> <br/>
-      is similar to <em>CSS</em>, <br/>
-      so more on that later
-    </div>
-    <div>More tags</div>
-    <div>&lt;div&gt;&lt;&#47;div&gt;<br/>
-      Structural, think of as a <em>container</em>
-    </div>
-    <div>Versatile so you'll see them a lot</div>
-    <div>&lt;p&gt;&lt;&#47;p&gt;<br/>Paragraph</div>
-    <div>For blocks of text</div>
-    <div>&lt;br&#47;&gt;<br/>Line break</div>
-    <div>(Note it is one of the <em>exceptions</em> to <br/>
-      the "tags are paired" rule)</div>
-    <div>Let's take a look at <br/>
-      a more complex page <br/>
-      before we look at CSS
-    </div>
-    <div><a href="//github.com/mattsayler/Maptime_HTML_CSS_Basics/blob/gh-pages/Part2/index.html" target="_blank">Part 2 HTML Code</a></div>
-    <div><a href="//mattsayler.github.io/Maptime_HTML_CSS_Basics/Part2/index.html" target="_blank">Part 2 HTML Output</a></div>
-    
-    <div>CSS</div>
-    <div>What is CSS?</div>
-    <div>Cascading Style Sheet</div>
-    <div>Describes how to <em>style</em> elements</div>
-    <div>Three ways to use</div>
-    <div>External <em>file</em></div>
-    <div>In the <em>head</em></div>
-    <div><em>In-line</em></div>
-    <div>Basic Syntax</div>
-    <div><span class="orange">selector</span> {<span class="green">property</span>:<span class="blue">value</span>;<span class="green">property</span>:<span class="blue">value</span>;}</div>
-    <div><em>Selector</em> identifies the tag <br/>
-      or tags to apply the style to
-    </div>
-    <div>It can reference the <em>tag</em>, <em>class/id</em>, or <em>both</em></div>
-    <div>(and a few other things)</div>
-    <div>i.e. <br/><span class="orange">p</span> {property:value;property:value;}</div>
-    <div>Selects <em>all</em> &lt;p&gt; elements <br/>
-      and applies the styling indicated <br/>
-      by the property-value pairs
-    </div>
-    <div>Properties</div>
-    <div>There are many many many <em>properties</em></div>
-    <div>We won't even <em>remotely</em> cover them all</div>
-    <div>But here's a <a href="//www.w3schools.com/cssref/default.asp" target="_blank">reference</a>.</div>
-    <div>Let's dive back in to the code</div>
-    <div><a href="//github.com/mattsayler/Maptime_HTML_CSS_Basics/blob/gh-pages/Part2/index.html" target="_blank">Part 2 HTML Code</a></div>
-    <div><a href="//mattsayler.github.io/Maptime_HTML_CSS_Basics/Part2/index.html" target="_blank">Part 2 HTML Output</a></div>
-    
-    <div>So there you have it</div>
-    <div>We talked about how <em>HTML</em> </br>
-      uses <em>tags</em> to "mark-up" a document
-    </div>
-    <div>Browsers <em>interpret</em> that <br/>
-      mark-up to <em>render</em> a webpage
-    </div>
-    <div>CSS can be used to <em>style</em> an HTML document</div>
-    <div>CSS <em>selectors</em> find elements <br/>
-      and style them according to <br/>
-      <em>property-value</em> pairs
-    </div>
-    <div>And that's the top of the tip of the iceberg!</div>
-    <div>Go forth and <em>code</em>! <br/>
-      Explore! Play! Learn!
-    </div>
-    
-  </body>
+</body>
 
 </html>
