@@ -2,98 +2,99 @@
 
 <html>
 
-  <head>
+<head>
   
-    <meta charset="UTF-8">
-    <title>HTML</title>
-    
-    <!-- Presentation using weenote by Jed Schmidt -->
-    <script type="text/javascript" src="//mattsayler.github.io/Maptime_HTML_CSS_Basics/weenote.js"></script>
-    
-    <style>
-      body {
-        font-family: "Helvetica", "sans-serif";
-        font-weight: bold;
-        background-color: #000;
-        text-align: center;
-        color: #FFF;
-        white-space: nowrap;
-      }
-      a, em {
-        color: #CC0;
-        font-style: normal;
-      }
-      a {
-        border-bottom: .1em dotted;
-        text-decoration: none;
-      }
-      span.green {
-        color: green;
-      }
-      span.blue {
-        color: lightblue;
-      }
-    </style>
+  <meta charset="UTF-8">
+  <title>HTML</title>
+
+  <!-- Presentation using weenote by Jed Schmidt -->
+  <script type="text/javascript" src="//mattsayler.github.io/Maptime_HTML_CSS_Basics/weenote.js"></script>
+
+  <style>
+    body {
+      font-family: "Helvetica", "sans-serif";
+      font-weight: bold;
+      background-color: #000;
+      text-align: center;
+      color: #FFF;
+      white-space: nowrap;
+    }
+    a, em {
+      color: #CC0;
+      font-style: normal;
+    }
+    a {
+      border-bottom: .1em dotted;
+      text-decoration: none;
+    }
+    span.green {
+      color: green;
+    }
+    span.blue {
+      color: lightblue;
+    }
+  </style>
   
-  </head>
+</head>
   
-  <body>
+<body>
   
-    <div>HTML</div>
-    <div>What <em>is</em> it?</div>
-    <div>Hyper Text Markup Language</div>
-    <div>Much clearer, right?</div>
-    <div>No?</div>
-    <div>Lets <em>break</em> it <em>down</em></div>
-    <div>Markup language = Document + Tags</div>
-    <div>Basically synonymous with 
-      <br/>adding notes to a document
-    </div>
-    <div>In other words</div>
-    <div>Marking it up</div>
-    <div>(ah-ha)</div>
-    <div>So what are <em>tags</em>?</div>
-    <div><em>Tags</em> are composed of a</div>
-    <div>Start tag<br/>&lt;tagname&gt;</div>
-    <div>Start tag<br/><em>&lt;</em>tagname<em>&gt;</em></div>
-    <div>Start tag<br/>&lt;<em>tagname</em>&gt;</div>
-    <div>And an</div>
-    <div>End tag<br/>&lt;&#47;tagname&gt;</div>
-    <div>End tag<br/>&lt;<em>&#47;</em>tagname&gt;</div>
-    <div>(mostly)</div>
-    <div>Usually with something in between them</div>
-    <div>Like text, or more tags</div>
-    <div>Multiple sets of tags are <em>nested</em></div>
-    <div>YES:<br/>
-      <span class="green">&lt;A&gt;</span>
-      <span class="blue">&lt;B&gt;</span>
-      <span class="blue">&lt;&#47;B&gt;</span>
-      <span class="green">&lt;&#47;A&gt;</span>
-    </div>
-    <div>NO:<br/>
-      <span class="green">&lt;A&gt;</span>
-      <span class="blue">&lt;B&gt;</span>
-      <span class="green">&lt;&#47;A&gt;</span>
-      <span class="blue">&lt;&#47;B&gt;</span>
-    </div>
-    <div>Browsers <em>interpret</em> these <br/>
-      <em>tags</em> to figure out how to <br/>
-      <em>display content</em> in <br/>
-      an HTML document
-    </div>
-    <div>There are tags for <br/>
-      all kinds of stuff
-    </div>
-    <div>Images</div>
-    <div>Links</div>
-    <div>Document <br/>structure</div>
-    <div>And much more</div>
-    <div>Great</div>
-    <div>But still rather <em>abstract</em></div>
-    <div>So lets dive in to an <em>HTML</em> document</div>
-    <div><a href="//github.com/mattsayler/Maptime_HTML_CSS_Basics/blob/gh-pages/Part1/index.html" target="_blank">Part 1 HTML Code</a></div>
-    <div><a href="//mattsayler.github.io/Maptime_HTML_CSS_Basics/Part1/index.html" target="_blank">Part 1 HTML Output</a></div>
+  <div>HTML</div>
+  <div>What <em>is</em> it?</div>
+  <div>Hyper Text Markup Language</div>
+  <div>Much clearer, right?</div>
+  <div>No?</div>
+  <div>Lets <em>break</em> it <em>down</em></div>
+  <div>Markup language = Document + Tags</div>
+  <div>Basically synonymous with 
+    <br/>adding notes to a document
+  </div>
+  <div>In other words</div>
+  <div>Marking it up</div>
+  <div>(ah-ha)</div>
+  <div>So what are <em>tags</em>?</div>
+  <div><em>Tags</em> are composed of a</div>
+  <div>Start tag<br/>&lt;tagname&gt;</div>
+  <div>Start tag<br/><em>&lt;</em>tagname<em>&gt;</em></div>
+  <div>Start tag<br/>&lt;<em>tagname</em>&gt;</div>
+  <div>And an</div>
+  <div>End tag<br/>&lt;&#47;tagname&gt;</div>
+  <div>End tag<br/>&lt;<em>&#47;</em>tagname&gt;</div>
+  <div>(mostly)</div>
+  <div>Usually with something in between them</div>
+  <div>Like text, or more tags</div>
+  <div>Multiple sets of tags are <em>nested</em></div>
+  <div>YES:<br/>
+    <span class="green">&lt;A&gt;</span>
+    <span class="blue">&lt;B&gt;</span>
+    <span class="blue">&lt;&#47;B&gt;</span>
+    <span class="green">&lt;&#47;A&gt;</span>
+  </div>
+  <div>NO:<br/>
+    <span class="green">&lt;A&gt;</span>
+    <span class="blue">&lt;B&gt;</span>
+    <span class="green">&lt;&#47;A&gt;</span>
+    <span class="blue">&lt;&#47;B&gt;</span>
+  </div>
+  <div>Browsers <em>interpret</em> these <br/>
+    <em>tags</em> to figure out how to <br/>
+    <em>display content</em> in <br/>
+    an HTML document
+  </div>
+  <div>There are tags for <br/>
+    all kinds of stuff
+  </div>
+  <div>Images</div>
+  <div>Links</div>
+  <div>Document <br/>structure</div>
+  <div>And much more</div>
+  <div>Great</div>
+  <div>But still rather <em>abstract</em></div>
+  <div>So lets dive in to an <em>HTML</em> document</div>
+  <div><a href="//github.com/mattsayler/Maptime_HTML_CSS_Basics/blob/gh-pages/Part1/index.html" target="_blank">Part 1 HTML Code</a></div>
+  <div><a href="//mattsayler.github.io/Maptime_HTML_CSS_Basics/Part1/index.html" target="_blank">Part 1 HTML Output</a></div>
+  <div><a href="mattsayler.github.io/Maptime_HTML_CSS_Basics/Part2/presentation.html" target="_blank">On to Part 2</a></div>
   
-  </body>
+</body>
 
 </html>
